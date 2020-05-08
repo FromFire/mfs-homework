@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>个人信息表单</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <form action="/Nonexist">
+        <div>
+            用户名：<input name="username" type="text" />
+        </div>
+        <div>
+            密码：<input name="password" type="password">
+        </div>
+        <div>
+            性别：
+            <input name="sex" type="radio" value="male" />男
+            <input name="sex" type="radio" value="female" />女
+        </div>
+        <div>
+            技能：
+            <input name="skill" type="checkbox" value="HTML" />HTML
+            <input name="skill" type="checkbox" value="CSS" />CSS
+            <input name="skill" type="checkbox" value="JavaScript" />JavaScript
+        </div>
+        <div>
+            所在城市:
+            <select name="city">
+                <option name="city" value="beijing" />北京
+                <option name="city" value="shanghai" />上海
+                <option name="city" value="shenzhen" />深圳
+            </select>
+        </div>
+        <button name="submit" type="submit">提交</button>
+        <button name="reset" type="reset">重置</button>
+    </form>
+</body>
+
+</html>
