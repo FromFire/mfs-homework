@@ -37,7 +37,7 @@ Canvas上的图形也是矢量图，但HTML文件只能提供Canvas的容器，�
 首先要检查是否写错了或者漏掉了。其次检查网页的实际编码格式是否和charset属性设置的编码格式是否一致，如果不一致就改过来。
 
 ## 7. 请写出一个包含乱码的网页，并合理设置字符集编码，使得它可以正常显示
-
+[文件夹内包含乱码版本和无乱码版本，有乱码版本的把charset的值改成了"GB2312"](https://github.com/FromFire/mfs-homework/tree/master/%E5%AE%9E%E8%B7%B5%E9%A2%98/lesson2-10_HTML/lesson10_%E7%BD%91%E9%A1%B5%E7%BC%96%E7%A0%81%E6%A0%BC%E5%BC%8F)
 
 ## 8. 在哪里查浏览器对标签或属性的支持程度? 请查询&lt;video>标签的浏览器兼容性，并截图
-
+https://caniuse.com/
